@@ -137,7 +137,7 @@ hr
 }
 
 /* All of the Dark Header Titles Sharing the same Styling*/
-.videoHighlights, .recentArticlesHome h2, .topArticlesHome h2
+.videoHighlights, .recentArticlesHome h2, .topArticlesHome h2, .musicArchive h2
 {
   font-family: 'Oswald';
   text-transform: uppercase;
@@ -154,6 +154,10 @@ hr
   margin-bottom: 20px;
 }
 
+.musicArchive h2
+{
+  margin-bottom: 20px;
+}
 
 .topArticlesHome 
 {
@@ -204,26 +208,21 @@ hr
   background: #a8a8a8; 
 }
 
-
-/* END of Scroll Bar Styling */
-
-
-
-
-/* prevents moment of unstylized content */
-.no-js .top-bar 
+.musicArticleArchive
 {
-  display: none;
+  float: left;
+  padding: 20px;
 }
 
 
+/* END of Scroll Bar Styling */
 
 
 /*  
 ============================  MEDIA QUERIES =========================
 ========================================================================= */
 
-
+/*spot fix to help load times*/
 @media screen and (min-width: 640px) {
 
   .no-js .top-bar 
@@ -239,7 +238,7 @@ hr
 
 
 
-
+/*more spot fixes for scaling*/
 @media screen and (max-width: 1750px) {
 
   .top-bar li a
@@ -259,7 +258,7 @@ hr
 }
 
 
-
+/*more spot fixes for scaling*/
 @media screen and (max-width: 1538px) {
 
   .logo 
@@ -286,6 +285,7 @@ hr
   }
 }
 
+/*more spot fixes for scaling*/
 @media screen and (max-width: 1185px) {
 
   .logo 
@@ -300,17 +300,17 @@ hr
   }
 
   .recentArticlesHomeScroll
-{
-  overflow-x: hidden;
-  height: 400px;
-  margin-bottom: 50px;
-}
+  {
+    overflow-x: hidden;
+    height: 400px;
+    margin-bottom: 50px;
+  }
 
   .topArticlesHome 
-{
-  position: absolute;
-  margin-top: 0px;
-}
+  {
+   position: absolute;
+   margin-top: 0px;
+  }
 
 }
 
@@ -336,6 +336,7 @@ hr
 
 }
 
+/*Search bar gone on smaller sizes to fix sizing errors*/
 @media screen and (max-width: 775px) {
 
 
@@ -366,7 +367,6 @@ hr
   .top-bar input 
   {
     display: none;
-
   }
 
 }
