@@ -75,7 +75,6 @@ header
   font-size: 40px;
   text-transform: uppercase;
   margin: 5px;
-
 }
 
 
@@ -214,6 +213,25 @@ hr
   padding: 20px;
 }
 
+/*footer*/
+.footer, .footer ul 
+{
+    background-color: #313131;
+}
+
+.footer li a
+{
+  color: #d4d4d4;
+  font-family: 'Raleway';
+  font-size: 40px;
+  text-transform: uppercase;
+  margin: 5px;
+}
+
+footer
+{
+  margin-top: 250px;
+}
 
 /* END of Scroll Bar Styling */
 
@@ -223,6 +241,11 @@ hr
 ========================================================================= */
 
 /*spot fix to help load times*/
+
+.no-js .top-bar {
+  display: none;
+}
+
 @media screen and (min-width: 640px) {
 
   .no-js .top-bar 
