@@ -267,6 +267,7 @@ hr
   {
     display: none;
   }
+
 }
 
 
@@ -288,6 +289,7 @@ hr
 {
   font-size: 30px;
 }
+
 }
 
 
@@ -365,13 +367,10 @@ hr
   display: none;
 }
 
-
-
 }
 
 /*Search bar gone on smaller sizes to fix sizing errors*/
 @media screen and (max-width: 775px) {
-
 
   .top-bar li a
   {
@@ -396,7 +395,6 @@ hr
 
 @media screen and (max-width: 730px) {
 
-
   .top-bar input 
   {
     display: none;
@@ -404,7 +402,21 @@ hr
 
 }
 
+@media screen and (max-width: 445px) {
+    
+    .logoMobile
+    {
+      width: 250px;
+    }
 
+}
 
+@media screen and (max-width: 460px) {
+  
+    .top-bar li a
+{
+  margin: -8px;
+}
 
+}
 /* end block of stylization fix*/
