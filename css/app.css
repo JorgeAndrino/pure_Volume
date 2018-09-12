@@ -4,30 +4,29 @@ font-family: 'Raleway' cursive, sans-serif;
 }
 
 /* Mobile Nav Styling */
-.title-bar {
-    padding: 1.5rem;
-    background: #313131;
-    color: #fefefe;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -ms-flex-align: center;
-    align-items: center;
-  }
+.title-bar 
+{
+  padding: 1.5rem;
+  background: #313131;
+  color: #fefefe;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -ms-flex-align: center;
+  align-items: center;
+}
 
-  .logoMobile
-  {
+.logoMobile
+{
+width: 300px;
+margin-left: 40px;
+}
 
-  width: 300px;
-  margin-left: 40px;
-
-  }
-
-  .menu-icon
-  {
-    width: 40px;
-  }
+.menu-icon
+{
+  width: 40px;
+}
 
   /* End of Mobile Nav Styling*/
 
@@ -217,28 +216,39 @@ hr
 .footer, .footer ul 
 {
     background-color: #313131;
+    margin-bottom: 0px !important;
+}
+
+.footer li
+{
+  text-decoration: none;
+  display: inline;
+  padding-right: 15px;
 }
 
 .footer li a
 {
   color: #d4d4d4;
   font-family: 'Raleway';
-  font-size: 40px;
+  font-size: 20px;
   text-transform: uppercase;
   margin: 5px;
 }
 
-footer
+.footer
 {
-  margin-top: 250px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-top: 50px;
 }
 
 /* END of Scroll Bar Styling */
 
 
-/*  
-============================  MEDIA QUERIES =========================
-========================================================================= */
+/*============================  MEDIA QUERIES =========================
+=========================================================================*/
 
 /*spot fix to help load times*/
 
