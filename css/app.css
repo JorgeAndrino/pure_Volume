@@ -1,6 +1,6 @@
 body 
 {
-font-family: 'Raleway' cursive, sans-serif; 
+font-family: 'Raleway', cursive, sans-serif; 
 }
 
 /* Mobile Nav Styling */
@@ -113,14 +113,12 @@ cursor: pointer;
   border: solid #313131 6px;
 }
 
-
 hr 
 {
-  border: 3px solid #31313136;
+  border: 3px solid #313131;
   margin-top: 0px;
   margin-bottom: 20px;
 }
-
 
 .videoPara 
 {
@@ -144,7 +142,6 @@ hr
   color: #fff;
   background-color: #313131;
   padding: 15px;
-
 }
 
 .recentArticlesHome h2
@@ -182,7 +179,6 @@ hr
   padding: 5px;
   color: black;
 }
-
 
 .recentArticlesHome article img
 {
@@ -269,8 +265,6 @@ hr
   }
 
 }
-
-
 
 /*more spot fixes for scaling*/
 @media screen and (max-width: 1750px) {
