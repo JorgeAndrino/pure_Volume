@@ -10,8 +10,8 @@ The new logo is simplistic, while providing plenty of opportunities for branding
 
 - Project Manager: Shannon Stoltz-Limin
 
-- Video and Logo designer: Hassan Yousef
+- Video creator: Hassan Yousef
 
-- Full Stack Developer: John Robertson
+- Full Stack Developer and Logo designer: John Robertson
 
 - Designer(s): Jorge Andrino Vd B & Claudia Paguaga
