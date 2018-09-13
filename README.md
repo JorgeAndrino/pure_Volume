@@ -8,7 +8,7 @@ The promotional video can be updated weekly to advertise the newest articles, al
 
 The new logo is simplistic, while providing plenty of opportunities for branding on clothing, hats business cards, pins, etc.
 
-- Project Manager: Shannon Stoltz-Limin
+- Project Manager and Writer: Shannon Stoltz-Limin
 
 - Video creator: Hassan Yousef
 

@@ -240,6 +240,12 @@ hr
   margin-top: 50px;
 }
 
+.end_quote
+{
+  text-transform: bold;
+  margin-bottom: 100px;
+}
+
 /* END of Scroll Bar Styling */
 
 
